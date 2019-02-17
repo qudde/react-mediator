@@ -23,10 +23,13 @@ export default withMediator(MyComponent);
 ```javascript
 import {mediator} from "qolly-react-mediator";
 
-    // Subscribing to events
-    mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
+// Subscribing to events
+mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
 
-    // Publishing events
-    mediator.publish("my-listener", {whatsUp: "!"});
+// Publishing events
+mediator.publish("my-listener", {whatsUp: "!"});
 
-```;
+// Useful for debugging purposes
+mediator.getEvents();
+
+```
