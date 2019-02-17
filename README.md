@@ -1,4 +1,4 @@
-# qolly-react-mediator
+# react-mediator
 Useful higher order react component for passing events upstream.
 
 ## Usage with React
