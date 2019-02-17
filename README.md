@@ -37,7 +37,7 @@ mediator.getEvents();
 ## ToDo
 
 - [ ] Proper tests with Jest and full test coverage
-- [ ] Socket integration for server <-> client message communication
+- [ ] Socket integration for server/client message communication
 - [ ] CI pipelines/checks
 - [ ] Add examples
 - [ ] Throw errors and warnings
