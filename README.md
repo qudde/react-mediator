@@ -41,3 +41,5 @@ mediator.getEvents();
 - [ ] CI pipelines/checks
 - [ ] Add examples
 - [ ] Throw errors and warnings
+
+###
