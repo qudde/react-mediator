@@ -3,7 +3,7 @@ Useful higher order react component for passing events upstream.
 
 ## Usage with React
 ```javascript
-import {withMediator} from "qolly-react-mediator";
+import {withMediator} from "react-mediator";
 
 class MyComponent extends Component {
   componentDidMount() {
@@ -21,7 +21,7 @@ export default withMediator(MyComponent);
 
 ## Standalone usage (or combined with React)
 ```javascript
-import {mediator} from "qolly-react-mediator";
+import {mediator} from "react-mediator";
 
 // Subscribing to events
 mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
