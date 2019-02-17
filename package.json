@@ -1,0 +1,40 @@
+{
+  "name": "react-mediator",
+  "version": "0.0.1",
+  "description": "Message broker HOC for React",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js --debug && prettier --check **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qudde/react-mediator.git"
+  },
+  "keywords": [
+    "pubsub",
+    "mediator",
+    "events"
+  ],
+  "author": "Max Bondén",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qudde/react-mediator/issues"
+  },
+  "homepage": "https://github.com/qudde/react-mediator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^5.14.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.12.4"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  }
+}
