@@ -40,4 +40,4 @@ mediator.getEvents();
 - [ ] CI pipelines and checks/linting
 - [ ] Add examples
 - [ ] Throw errors and warnings
-- [ ] Static typing with Flow
+- [ ] Static typing with Flow
