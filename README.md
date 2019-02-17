@@ -8,11 +8,13 @@ import {withMediator} from "react-mediator";
 class MyComponent extends Component {
   componentDidMount() {
   
+    const {publish, subscribe} = this.props;
+  
     // Subscribing to events
-    this.props.subscribe("my-event-listener", (data) => this.doSomething(data));
+    subscribe("my-event-listener", (data) => this.doSomething(data));
     
     // Publishing events with data to available listeners
-    this.props.publish("my-other-event-listener", "Hello!");
+    publish("my-other-event-listener", "Hello!");
   }
 }
 
