@@ -17,7 +17,7 @@ class MyComponent extends Component {
 }
 
 export default withMediator(MyComponent);
-```;
+```
 
 # Standalone usage (or combined with React)
 ```javascript
