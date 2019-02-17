@@ -37,6 +37,7 @@ mediator.getEvents();
 ## ToDo
 - [ ] Proper tests with Jest and full test coverage
 - [ ] Socket integration for server <-> client message communication
-- [ ] CI pipelines and checks
+- [ ] CI pipelines and checks/linting
 - [ ] Add examples
 - [ ] Throw errors and warnings
+- [ ] Static typing with Flow
