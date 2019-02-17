@@ -33,3 +33,8 @@ mediator.publish("my-listener", {whatsUp: "!"});
 mediator.getEvents();
 
 ```
+
+## ToDo
+
+- [ ] Proper tests with Jest and full test coverage
+- [ ] Socket integration for server <-> client message communication
