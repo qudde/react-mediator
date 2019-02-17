@@ -1,7 +1,7 @@
 # qolly-react-mediator
 Useful higher order react component for passing events upstream.
 
-# Usage
+# Usage with React
 ```javascript
 import {withMediator} from "qolly-react-mediator";
 
@@ -17,4 +17,16 @@ class MyComponent extends Component {
 }
 
 export default withMediator(MyComponent);
+```;
+
+# Standalone usage (or combined with React)
+```javascript
+import {mediator} from "qolly-react-mediator";
+
+    // Subscribing to events
+    mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
+
+    // Publishing events
+    mediator.publish("my-listener", {whatsUp: "!"});
+
 ```;
