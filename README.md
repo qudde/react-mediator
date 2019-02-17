@@ -11,7 +11,7 @@ class MyComponent extends Component {
     const {publish, subscribe} = this.props;
   
     // Subscribing to events
-    subscribe("my-event-listener", (data) => this.doSomething(data));
+    subscribe("my-event-listener", data => this.doSomething(data));
     
     // Publishing events with data to available listeners
     publish("my-other-event-listener", "Hello!");
@@ -26,13 +26,13 @@ export default withMediator(MyComponent);
 import {mediator} from "react-mediator";
 
 // Subscribing to events
-mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
+mediator.subscribe("my-event-listener", data => this.doSomething(data));
 
 // Publishing events
 mediator.publish("my-listener", {whatsUp: "!"});
 
 // Unsubscribing single listener
-const myListener = mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
+const myListener = mediator.subscribe("my-event-listener", data => this.doSomething(data));
 mediator.remove("my-event-listener", myListener);
 
 // Remove entire group of listeners
