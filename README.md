@@ -33,7 +33,6 @@ mediator.publish("my-listener", {whatsUp: "!"});
 
 // Unsubscribing single listener
 const myListener = mediator.subscribe("my-event-listener", (data) => this.doSomething(data));
-
 mediator.remove("my-event-listener", myListener);
 
 // Remove entire group of listeners
